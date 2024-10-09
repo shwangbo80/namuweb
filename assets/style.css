@@ -1,0 +1,36 @@
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  margin-left: 50vw;
+  transform: translate(-50%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0; left: 0; bottom: 0px; right: 0;
+  color: #f1f1f1;
+  width: 100%;
+}
+
+/* .navbar {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+} */
+
+.bg-black {
+  background-color: black;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .nav-link{   }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
